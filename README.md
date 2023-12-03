@@ -6,7 +6,7 @@ Discover and identify objects using your voice with this innovative project. The
 
 - **Voice Interaction:** Initiate the search by speaking the object you want to find.
 - **Live Video Stream:** Toggle the live video stream to visually inspect the surroundings.
-- **Visual Question Answering (VQA):** Utilizes a deep learning model to answer questions about the identified objects.
+- **Visual Question Answering (VQA):** To answer questions about the identified objects.
 
 
 ## Setup
