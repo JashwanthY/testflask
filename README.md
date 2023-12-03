@@ -8,6 +8,7 @@ Discover and identify objects using your voice with this innovative project. The
 - **Live Video Stream:** Toggle the live video stream to visually inspect the surroundings.
 - **Visual Question Answering (VQA):** Utilizes a deep learning model to answer questions about the identified objects.
 
+
 ## Setup
 
 Follow these instructions to set up and run the Voice Object Finder on your local machine.
