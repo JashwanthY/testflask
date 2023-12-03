@@ -19,8 +19,46 @@ Follow these instructions to set up and run the Voice Object Finder on your loca
 
 ### Installation
 
-1. Clone the repository:
+Clone the repository:
 
-   ```bash
+   ```
    git clone https://github.com/b-sai/find_missing_object.git
    cd find_missing_object
+   ```
+   
+Create a virtual environment:
+
+**For Windows:**
+
+```
+python -m venv venv
+source venv/Scripts/activate
+```
+
+**For Linux/Mac:**
+
+```
+python -m venv venv
+source venv/bin/activate
+```
+
+Install dependencies:
+
+```
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+```
+
+NOTE: it might take about 5 minutes to install everything
+
+Run the application:
+
+```
+python main.py
+```
+
+Open http://127.0.0.1:5000/ in your browser after following the above instructions.
+
+
+
+
