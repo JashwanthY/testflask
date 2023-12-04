@@ -8,6 +8,9 @@ Discover and identify objects using your voice with this innovative project. The
 - **Live Video Stream:** Toggle the live video stream to visually inspect the surroundings.
 - **Visual Question Answering (VQA):** To answer questions about the identified objects.
 
+## Web Interface Preview
+
+![Web Interface Preview](screenshots/preview.jpeg)
 
 ## Setup
 
@@ -59,6 +62,25 @@ python main.py
 ```
 
 Open http://127.0.0.1:5000/ in your browser after following the above instructions.
+
+
+
+## Usage
+
+Follow these steps to interact with the Voice Object Finder:
+
+1. Toggle the live video stream using the "TOGGLE VIDEO" button.
+2. Click the "LISTEN" button to initiate voice interaction.
+3. Speak the name of the object you want to find.
+4. The application will capture your speech and video, displaying the requested object description using Visual Question Answering (VQA).
+
+  
+## Code Overview
+- main.py: Contains the main application code, including Flask routes for video streaming, capturing images, and handling user speech.
+- utils.py: Defines a function for identifying objects in a sentence using spaCy.
+- index.html: HTML template for the application's front-end, including buttons and video stream display.
+- style.css: CSS stylesheet for styling the HTML elements.
+
 
 
 
